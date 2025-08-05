@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Sample MCP server"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mcp[cli]>=1.12.3",
+    "pandas>=2.3.1",
+    "pyarrow>=21.0.0",
+]
